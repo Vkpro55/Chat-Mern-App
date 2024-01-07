@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100;1,300&family=Work+Sans:wght@300&display=swap');
+
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-image: url('./background.jpg');
+  /* Correct path to your image */
+  background-size: cover;
+  background-position: center;
+  color: black;
+}
+
+/* // "proxy": "http://127.0.0.1:27017:3000", */
+
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}d
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
