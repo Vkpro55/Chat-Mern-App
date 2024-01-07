@@ -59,7 +59,7 @@ const UpdateGroupChatModal = ({ fetchMessages, fetchAgain, setFetchAgain }) => {
         Authorization: `Bearer ${user.token}`,
       },
     };
-    const response = await axios.put(`https://chatapp-n373.onrender.com/api/chat/groupremove`, {
+    const response = await axios.put(`http://localhost:5000/api/chat/groupremove`, {
       chatId: selectedChat._id,
       userId: user1._id,
     }, config);
@@ -114,7 +114,7 @@ const handleRemoveError = (errorMessage) => {
       chatName: groupChatName,
     };
 
-    const response = await axios.put('https://chatapp-n373.onrender.com/api/chat/rename', requestData, config);
+    const response = await axios.put('http://localhost:5000/api/chat/rename', requestData, config);
 
     if (response.status === 200) {
       // Update the chat name in your local state
@@ -150,7 +150,7 @@ const handleRemoveError = (errorMessage) => {
           Authorization: `Bearer ${user.token}`,
         },
       };
-      const { data } = await axios.get(`https://chatapp-n373.onrender.com/api/user?search=${search}`, config);
+      const { data } = await axios.get(`http://localhost:5000/api/user?search=${search}`, config);
       console.log(data);
       setLoading(false);
       setSearchResult(data);
@@ -196,7 +196,7 @@ const handleRemoveError = (errorMessage) => {
           Authorization: `Bearer ${user.token}`,
         },
       };
-      const { data } = await axios.put(`https://chatapp-n373.onrender.com/api/chat/groupadd`,
+      const { data } = await axios.put(`http://localhost:5000/api/chat/groupadd`,
         {
           chatId: selectedChat._id,
           userId: user1._id,

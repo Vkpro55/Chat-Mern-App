@@ -82,7 +82,7 @@ const SideDrawer = () => {
         },
       };
 
-      const { data } = await axios.get(`https://chatapp-n373.onrender.com/api/user?search=${search}`, config);
+      const { data } = await axios.get(`http://localhost:5000/api/user?search=${search}`, config);
 
       setLoading(false);
       setSearchResult(data);
@@ -111,7 +111,7 @@ const SideDrawer = () => {
      };
       
      // it will return the chat that will created
-      const { data } = await axios.post(`https://chatapp-n373.onrender.com/api/chat`, { userId }, config);
+      const { data } = await axios.post(`http://localhost:5000/api/chat`, { userId }, config);
 
       if (!chats.find((c) => c._id === data._id)) setChats([data, ...chats]);
       setSelectedChat(data);

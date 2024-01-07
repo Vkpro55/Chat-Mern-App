@@ -51,7 +51,7 @@ const Signup = () => {
         "Content-type": "application/json",
       },
     };
-    const response = await axios.post("https://chatapp-n373.onrender.com/api/user", {
+    const response = await axios.post("http://localhost:5000/api/user", {
       name,
       email,
       password,

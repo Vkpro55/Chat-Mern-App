@@ -15,7 +15,7 @@ import animationData from "../animation/typing.json";
 import io from "socket.io-client";
 import UpdateGroupChatModal from "./miscellaneous/UpdateGroupChatModal";
 import { ChatState } from "../Context/ChatProvider";
-const ENDPOINT = "https://chatapp-n373.onrender.com"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
+const ENDPOINT = "http://localhost:5000"; // "https://talk-a-tive.herokuapp.com"; -> After deployment
 var socket, selectedChatCompare;
 
 let typingTimeout;
@@ -53,7 +53,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
 
       setLoading(true);
 
-      const { data } = await axios.get(`https://chatapp-n373.onrender.com/api/message/${selectedChat._id}`,
+      const { data } = await axios.get(`http://localhost:5000/api/message/${selectedChat._id}`,
         config
       );
       
@@ -84,7 +84,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
           },
         };
          setNewMessage("");
-        const { data } = await axios.post("https://chatapp-n373.onrender.com/api/message",
+        const { data } = await axios.post("http://localhost:5000/api/message",
           {
             content: newMessage,
             chatId: selectedChat,
