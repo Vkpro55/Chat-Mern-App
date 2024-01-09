@@ -55,13 +55,3 @@ To use the Chat App MERN, follow these steps:
 ![Screenshot (294)](https://github.com/Vkpro55/Chat-Mern-App/assets/83464767/7d265622-79a8-4678-9eec-9a71e2352f2c)
 ![Screenshot (295)](https://github.com/Vkpro55/Chat-Mern-App/assets/83464767/6e6c5368-4f0f-475b-a4ac-2ee098e117b8)
 
-
-## Contributing
-
-Contributions to the Chat App MERN project are welcome! If you have any ideas for improvements, bug fixes, or new features, feel free to open an issue or submit a pull request.
-
-Please make sure to follow the existing coding style and guidelines when contributing.
-
-## License
-
-This project is currently without a specific license. All rights are reserved.
