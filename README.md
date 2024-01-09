@@ -45,37 +45,12 @@ To use the Chat App MERN, follow these steps:
 
 ## Screenshots
 
-<h3 align="center">Login Page</h3>
+![Screenshot (291)](https://github.com/Vkpro55/Chat-Mern-App/assets/83464767/ebc80c7c-117e-44dd-9e58-c88492ed5076)
+![Screenshot (292)](https://github.com/Vkpro55/Chat-Mern-App/assets/83464767/18bedf1e-d6d7-4b64-b8bf-0768a8d9c5f3)
+![Screenshot (293)](https://github.com/Vkpro55/Chat-Mern-App/assets/83464767/0cedc78a-5b9d-4899-baf7-500cb3ebefbd)
+![Screenshot (294)](https://github.com/Vkpro55/Chat-Mern-App/assets/83464767/7d265622-79a8-4678-9eec-9a71e2352f2c)
+![Screenshot (295)](https://github.com/Vkpro55/Chat-Mern-App/assets/83464767/6e6c5368-4f0f-475b-a4ac-2ee098e117b8)
 
-![Login](screenshots/login_page_login.png)
-
-*Login page with Login component*
-
-![Register](screenshots/login_page_register.png)
-
-*Login page with Register component*
-
-<h3 align="center">Chat Page</h3>
-
-![Chat](screenshots/chat_page.png)
-
-*Chat page with Contacts, SingleChat and ChatInput components*
-
-![UpdateProfile](screenshots/chat_page_update_profile.png)
-
-*Chat page with UpdateProfile component*
-
-![GroupchatCreate](screenshots/chat_page_groupchat_create.png)
-
-*Chat page with GroupchatCreate component*
-
-![GroupchatUpdate](screenshots/chat_page_group_update.png)
-
-*Chat page with GroupchatUpdate component*
-
-![SubmitModal](screenshots/chat_page_confirmation.png)
-
-*Chat page with SubmitModal component*
 
 ## Contributing
 
